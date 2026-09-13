@@ -1,2 +1,4 @@
-# bioSite
-Repo for CSD340-300H Web Development with HTML - bioSite
+# CSD 340 Web Development with HTML and CSS
+## Contributors
+- Sue Sampson
+- Jonathon Walmsley
