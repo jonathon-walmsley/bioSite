@@ -1,7 +1,7 @@
 /*
     Jonathon Walmsley 
-    09/13/2026 
-    Module 6.3
+    09/20/2026 
+    Module 7.2
 */
 
 :root {
@@ -85,6 +85,13 @@ nav .container {
     align-items: center;
 }
 
+.brand {
+    color: #FFFFFF;
+    font-family: var(--font-heading);
+    font-size: 1.35rem;
+    font-weight: 700;
+}
+
 nav ul {
     display: flex;
     list-style: none;
@@ -102,13 +109,6 @@ nav ul li a:hover,
 nav ul li a.active {
     color: var(--background);
     text-decoration: underline;
-}
-
-.brand {
-    color: #FFFFFF;
-    font-family: var(--font-heading);
-    font-size: 1.35rem;
-    font-weight: 700;
 }
 
 /* Hero Section */

@@ -1,7 +1,7 @@
 <!--
     Jonathon Walmsley 
-    09/13/2026 
-    Module 6.3
+    09/20/2026 
+    Module 7.2
 -->
 
 <!DOCTYPE html>
@@ -9,8 +9,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Basic layout for bioSite landing page.">
+    <meta name="description" content="bioSite dedicated to Jolene (Gma) - Celebrating 95 years of life, family devotion, and nationwide travel.">
     <title>Jolene's Journey | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/site.css">
 </head>
 <body>
@@ -28,29 +31,66 @@
         </nav>
     </header>
 
-    <div class="container">
-
-        <div class="hero">
+    <main class="container">
+        
+        <section class="hero">
             <h1>Celebrating 95 Years of Adventure & Devotion</h1>
             <p>Welcome to the living tribute to Jolene, affectionately known to family as Gma. Born on Cinco de Mayo in 1930 and raised in Ocean Beach, this site honors her rich life, her career in youth literacy, and her continued nationwide travels.</p>
             <a href="about.html" class="btn-primary">Discover Her Story</a>
-        </div>
+        </section>
 
-        <div>
-            <h2>Milestones</h2>
+        <section>
+            <h2>Milestones & Accomplishments</h2>
+            <div class="card-grid">
+                
+                <div class="card">
+                    <figure>
+                        <img src="images/Milestone 1.jpg" alt="Jolene having fun with her son at a family reunion">
+                        <figcaption>Having fun with her son at a family reunion.</figcaption>
+                    </figure>
+                    <h3>Generations of Family</h3>
+                    <p>Married to the love of her life and raising four healthy children, Jolene cherishes the close ties that unite four living generations across the country.</p>
+                </div>
 
-            <div class="card">
-                <figure>
-                    <img src="placeholder.jpg" alt="Family reunion">
-                    <figcaption>Having fun with her son at a family reunion.</figcaption>
-                </figure>
-                <h3>Family Life</h3>
-                <p>Raising four children and staying connected across four generations.</p>
-                <a href="about.html" class="btn-primary">Read More</a>
+                <div class="card">
+                    <figure>
+                        <img src="images/Milestone 2.jpg" alt="Jolene celebrating her 95-year milestone with family">
+                        <figcaption>Reaching her 95-year milestone, celebrated with family on Cinco de Mayo.</figcaption>
+                    </figure>
+                    <h3>95-Year Milestone</h3>
+                    <p>Born on May 5, 1930 alongside her twin sister, Jolene's Cinco de Mayo birthday remains an annual focal point for large family get-togethers and celebration.</p>
+                </div>
+
+                <div class="card">
+                    <figure>
+                        <img src="images/Milestone 3.jpg" alt="80s theme Martini party at the beach with family">
+                        <figcaption>80's theme Martini Party at the Beach.</figcaption>
+                    </figure>
+                    <h3>Cherished Celebrations</h3>
+                    <p>Whether attending beach gatherings or family reunions, she brings humor, energy, and joy to every milestone she shares with loved ones.</p>
+                </div>
+
             </div>
+        </section>
+
+        <div class="quote-block">
+            <blockquote>
+                "Always be happy, don't be angry, if you can't do anything about it don't sweat it!"
+            </blockquote>
+            <p class="quote-author">&mdash; Jolene (Gma), on advice for younger generations</p>
         </div>
 
-    </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Jolene's Journey &bull; CSD 340 bioSite Project</p>
+            <p>
+                Learn more about her hometown history at 
+                <a href="https://oceanbeachsandiego.com/" target="_blank" rel="noopener noreferrer">Ocean Beach San Diego Historical Society</a>.
+            </p>
+        </div>
+    </footer>
 
 </body>
 </html>

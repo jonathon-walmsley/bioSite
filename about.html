@@ -1,7 +1,7 @@
 <!--
     Jonathon Walmsley 
-    09/13/2026 
-    Module 6.3
+    09/20/2026 
+    Module 7.2
 -->
 
 <!DOCTYPE html>
@@ -9,8 +9,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Basic layout for bioSite about page.">
+    <meta name="description" content="About Jolene (Gma) - Biography of 95 years of life, family devotion, and career in youth literacy.">
     <title>Jolene's Journey | About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/site.css">
 </head>
 <body>
@@ -28,36 +31,54 @@
         </nav>
     </header>
 
-
-    <div class="container">
-
-        <div class="page-header">
+    <main class="container about-wrapper">
+        
+        <section class="page-header">
             <p class="subtitle">Biography</p>
             <h1>About Jolene (Gma)</h1>
-        </div>
+        </section>
 
-        <div>
-
-            <figure class="card">
-                <img src="placeholder.jpg" alt="A recent portrait of Gma and her favorite Grandson">
+        <div class="portrait-card">
+            <figure>
+                <img src="images/About.jpg" alt="A recent portrait of Gma and her favorite Grandson">
                 <figcaption>A recent portrait of Gma and her favorite Grandson.</figcaption>
             </figure>
+        </div>
 
-                        
+        <article class="bio-article">
             <h2>A Lifetime of Family, Community, and Adventure</h2>
+            
             <p>
-                Born on Central Avenue in San Diego on May 5, 1930 alongside her twin sister, Jolene spent her youth in Ocean Beach. As an adult, she dedicated her professional life to community education and early literacy, working in the children's library at Pepper Drive school to introduce young students to reading.
+                Jolene, affectionately known to generations of family members as Gma, was born in a house on Central Avenue in San Diego on May 5, 1930. Arriving on Cinco de Mayo alongside her twin sister, her birthday marked the start of a lifelong tradition of festive family get-togethers where celebrating side by side with her sister made every milestone unforgettable. When she was just three months old, her family moved to Ocean Beach, where she spent her formative years. Growing up near the coast provided fond early memories that she still shares today, including the time she and her twin sister were four and a half years old trying to pick fresh fruit from their parents' backyard orange tree, only to be met with a chorus of "no, no, no."
             </p>
 
-            <div class="blockquote-callout">
+            <p>
+                As an adult, Jolene dedicated her professional career to community education and early literacy, working in the children's library at the Pepper Drive school. In the library, she introduced young students to the joy of reading, created welcoming learning spaces, and shared her appreciation for books. Beyond her work, her family was the center of her life. When reflecting on nearly a century of lived history, she considers her greatest personal achievement to be marrying the love of her life and raising four healthy children. Her home was always grounded in warmth, creativity, and lasting generational connections.
+            </p>
+
+            <div class="quote-block">
                 <blockquote>
                     "Always be happy, don't be angry, if you can't do anything about it don't sweat it!"
                 </blockquote>
-                <cite>&mdash; Jolene (Gma)</cite>
+                <p class="quote-author">&mdash; Jolene (Gma), on living a full and peaceful life</p>
             </div>
-        </div>
 
-    </div>
+            <p>
+                At 95 years old, Jolene continues to maintain an active, independent routine. Because her children, grandchildren, and great-grandchildren live across multiple states, she frequently travels across the country by airplane to visit them in person, while also enjoying scenic road trips through the mountains. When she is not traveling, she channels her energy into handcrafting art and keepsake projects designed especially for her grandchildren and great-grandchildren. Her life reflects an enduring philosophy that she regularly passes down to younger generations: "Always be happy, don't be angry, if you can't do anything about it don't sweat it!"
+            </p>
+        </article>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Jolene's Journey &bull; CSD 340 bioSite Project</p>
+            <p>
+                Discover the history of her childhood community at 
+                <a href="https://oceanbeachsandiego.com/" target="_blank" rel="noopener noreferrer">Ocean Beach San Diego Historical Society</a>.
+            </p>
+        </div>
+    </footer>
 
 </body>
 </html>

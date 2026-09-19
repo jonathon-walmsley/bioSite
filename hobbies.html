@@ -1,16 +1,19 @@
 <!--
     Jonathon Walmsley 
-    09/13/2026 
-    Module 6.3
+    09/20/2026 
+    Module 7.2
 -->
-
+    
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Basic layout for bioSite hobbies page.">
+    <meta name="description" content="Hobbies and lifestyle of Jolene (Gma) - Cross-country travel, family genealogy, and handcrafted arts and crafts.">
     <title>Jolene's Journey | Hobbies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/site.css">
 </head>
 <body>
@@ -28,44 +31,73 @@
         </nav>
     </header>
 
-    <div class="container">
-
-        <div class="page-header">
+    <main class="container">
+        
+        <section class="page-header">
             <p class="subtitle">Pastimes & Passions</p>
             <h1>Hobbies & Lifestyle</h1>
-        </div>
+        </section>
 
-        <div>
-            <h2>Featured Pastimes</h2>
+        <div class="feature-list">
 
-            <div class="feature-row">
-                <div class="feature-media">
-                    <figure>
-                        <img src="placeholder.jpg" alt="Having fun on a girls vacation get away">
-                        <figcaption>Having fun on a girls vacation get away.</figcaption>
-                    </figure>
-                </div>
-                <div class="feature-text">
-                    <h3>Cross-Country Travel</h3>
-                    <p>Visiting children, grandchildren, and great-grandchildren across multiple states by plane and road trip.</p>
-                </div>
+        <!-- Hobby 1: Travel -->
+        <article class="feature-row">
+            <div class="feature-media">
+                <figure>
+                    <img src="images/Hobby 1.jpg" alt="Jolene having fun on a girls vacation get away">
+                    <figcaption>Having fun on a girls vacation get away.</figcaption>
+                </figure>
             </div>
-
-            <div class="feature-row reverse">
-                <div class="feature-media">
-                    <figure>
-                        <img src="placeholder.jpg" alt="Toasting many years to come">
-                        <figcaption>Toasting many years to come...</figcaption>
-                    </figure>
-                </div>
-                <div class="feature-text">
-                    <h3>Handcrafted Keepsakes</h3>
-                    <p>Designing and handcrafting art and keepsake projects for family members across four generations.</p>
-                </div>
+            <div class="feature-text">
+                <h2>Cross-Country Travel & Exploration</h2>
+                <p>Even at 95 years old, staying in one place has never been her style. With family spread across numerous states, traveling nationwide allows her to stay actively engaged in the lives of her children, grandchildren, and great-grandchildren.</p>
+                <p>Whether flying coast-to-coast or driving through scenic mountain routes, she treats every trip as a fresh adventure that keeps her energized and connected.</p>
             </div>
-        </div>
+        </article>
+
+        <!-- Hobby 2: Genealogy & Photos -->
+        <article class="feature-row reverse">
+            <div class="feature-media">
+                <figure>
+                    <img src="images/Hobby 2.jpg" alt="Jolene enjoying playing time with her newest great-grandchild">
+                    <figcaption>Enjoying playing time with the newest great-grandchild.</figcaption>
+                </figure>
+            </div>
+            <div class="feature-text">
+                <h2>Family Genealogy & Photo Preservation</h2>
+                <p>Preserving family history is a cornerstone of her daily routine. Having lived through nearly a century of changes, she curates extensive family photo albums and documents the lineages linking four living generations.</p>
+                <p>Her collection bridges early childhood memories growing up in Ocean Beach with modern family milestones, ensuring that family records are preserved for future generations.</p>
+            </div>
+        </article>
+
+        <!-- Hobby 3: Arts & Crafts -->
+        <article class="feature-row">
+            <div class="feature-media">
+                <figure>
+                    <img src="images/Hobby 3.jpg" alt="Jolene smiling and toasting to many years to come">
+                    <figcaption>Toasting many years to come...</figcaption>
+                </figure>
+            </div>
+            <div class="feature-text">
+                <h2>Creating Arts and Crafts</h2>
+                <p>A lifelong maker, Jolene directs much of her creative energy into handcrafted projects designed specifically for her grandchildren and great-grandchildren.</p>
+                <p>From personalized keepsakes to holiday decorations, crafting serves as a tangible way for her to share warmth, creativity, and meaningful gifts that family members treasure for years.</p>
+            </div>
+        </article>
 
     </div>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Jolene's Journey &bull; CSD 340 bioSite Project</p>
+            <p>
+                Learn more about her hometown history at 
+                <a href="https://oceanbeachsandiego.com/" target="_blank" rel="noopener noreferrer">Ocean Beach San Diego Historical Society</a>.
+            </p>
+        </div>
+    </footer>
 
 </body>
 </html>
